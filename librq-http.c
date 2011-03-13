@@ -248,7 +248,7 @@ static void param_handler(const char *key, const char *value, void *arg)
 	}	
 	param->value[j] = 0;
 	
-	printf("key: '%s', value: '%s' \n", param->key, param->value);
+// 	printf("key: '%s', value: '%s' \n", param->key, param->value);
 	
 	ll_push_tail(list, param);
 }
