@@ -37,11 +37,11 @@
 #define HTTP_CMD_HOST             192
 #define HTTP_CMD_PATH             193
 #define HTTP_CMD_KEY              194
-#define HTTP_CMD_VALUE            195
 #define HTTP_CMD_FILENAME         196
-#define HTTP_CMD_PARAMS           197
                                             // large string (224 to 255)
 #define HTTP_CMD_FILE             226
+#define HTTP_CMD_PARAMS           227
+#define HTTP_CMD_VALUE            228
 
 
 typedef struct {
