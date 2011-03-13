@@ -25,8 +25,6 @@ install: librq-http.so.1.0.1 rq-http.h
 	cp librq-http.so.1.0.1 /usr/lib/
 	@-test -e /usr/lib/librq-http.so && rm /usr/lib/librq-http.so
 	ln -s /usr/lib/librq-http.so.1.0.1 /usr/lib/librq-http.so
-	ldconfig
-	@echo "Install complete."
 
 
 
